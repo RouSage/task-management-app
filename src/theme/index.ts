@@ -28,6 +28,27 @@ const theme = extendTheme({
       shadowRadius: 24,
     },
   },
+  fontConfig: {
+    Poppins: {
+      400: {
+        normal: "Poppins",
+      },
+      500: {
+        normal: "Poppins-Medium",
+      },
+      600: {
+        normal: "Poppins-SemiBold",
+      },
+      700: {
+        normal: "Poppins-Bold",
+      },
+    },
+  },
+  fonts: {
+    heading: "Poppins",
+    body: "Poppins",
+    mono: "Poppins",
+  },
 });
 
 export default theme;
