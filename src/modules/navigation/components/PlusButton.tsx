@@ -49,7 +49,7 @@ const PlusButton = ({ size = 58, animationValue }: Props) => {
         fill='none'>
         <Circle cx={size / 2} cy={size / 2} r={size / 2} fill='url(#a)' />
         <Defs>
-          <LinearGradient id='a' x1='0' y1='0%' x2='100%' y2='50%'>
+          <LinearGradient id='a' x1='10%' y1='70%' x2='93%' y2='75%'>
             <Stop stopColor={theme.colors.primary['100']} />
             <Stop offset={1} stopColor={theme.colors.secondary['50']} />
           </LinearGradient>

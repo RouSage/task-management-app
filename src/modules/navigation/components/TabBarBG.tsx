@@ -8,7 +8,7 @@ import Animated, {
 import { interpolatePath, parse } from 'react-native-redash';
 import Svg, { Path } from 'react-native-svg';
 
-const ORIGINAL_WIDTH = 428;
+const ORIGINAL_WIDTH = 426;
 const ORIGINAL_HEIGHT = 86;
 const ASPECT_RATIO = ORIGINAL_WIDTH / ORIGINAL_HEIGHT;
 
