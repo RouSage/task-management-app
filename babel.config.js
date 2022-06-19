@@ -17,6 +17,7 @@ module.exports = function (api) {
             '.ios.tsx',
           ],
           alias: {
+            '@components': './src/components',
             '@modules': './src/modules',
             '@theme': './src/theme',
           },
