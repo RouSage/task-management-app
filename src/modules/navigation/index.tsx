@@ -10,11 +10,14 @@ const RootStack = createNativeStackNavigator<RootStackParamList>();
 const Navigation = () => {
   return (
     <NavigationContainer>
-      <RootStack.Navigator
-        screenOptions={{
-          headerShown: false,
-        }}>
-        <RootStack.Screen name={Routes.TabBar} component={TabBar} />
+      <RootStack.Navigator>
+        <RootStack.Screen
+          name={Routes.TabBar}
+          component={TabBar}
+          options={{
+            headerShown: false,
+          }}
+        />
       </RootStack.Navigator>
     </NavigationContainer>
   );

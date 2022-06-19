@@ -4,12 +4,17 @@ const theme = extendTheme({
   colors: {
     primary: {
       '50': '#4B7BE5',
+      '100': '#0093E9',
+    },
+    secondary: {
+      '50': '#80D0C7',
     },
     white: {
       '50': '#F8F6FF',
     },
     black: {
       '50': '#363942',
+      '100': '#000000',
     },
   },
   shadows: {
